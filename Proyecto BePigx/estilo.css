@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/fondobpx.jpg);
+    color: white;
+    
+}
+header{
+    background-color:rgb(0, 118, 139) ;
+    width: 100%;
+    height: 80px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.menu{
+    float: left;
+    font-weight: bold;
+    font: 26px;
+}
+
+.presentacion{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.consulta{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.navegador{
+    float: right;
+}
+
+.navegador li{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+
+}
+
+.navegador a:hover{
+    color: black;
+}
+
+main{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+}
+
+.call{
+    width: 70%;
+    color: white;
+    border: solid 5px rgb(0, 118, 139); 
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    float: right;
+}
+
+.call p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.call a{
+
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border:cadetblue solid 3px;
+}
+
+.call a:hover{
+border:aliceblue 3px;
+background-color:#333
+}
+
+.adelante2{
+    
+width: 300px;height: 300px;
+border-style: groove;
+
+}
+
+.sec{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont{
+    height: 500px;
+    width: 100%;
+}
+
+.cont1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.cont2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+.cont3{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item{
+    height: 120px;
+    width:120px;
+    border:white solid 2px;
+    text-align: center;
+    line-height: 120px;
+    font-weight: bold;
+}
+
+.item:hover{
+        transform: scale(1.09);
+        transition: all 1s;
+    }
+
+    
+.tablatalle{
+    padding-left: 58px;
+    border: 15px;
+    margin: 0;
+    border-width: 5px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+
+.redes{
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
